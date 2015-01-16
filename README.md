@@ -52,7 +52,7 @@ allow anything connected to a network to communicate with one another via HTTP p
 -HTTP Requests (messages):
 * GET (Read)
 * Post (Create)
-*Put (Update)
+* Put (Update)
 * Delete (Destroy): Used to be disabled (security risks as clients may attempt to delete content handling must be 
 imposed)
 
@@ -61,7 +61,7 @@ imposed)
 -Static webpages request (via GET, it needs a URL): 
 * usually the webserver passes an index.html file and the client (browser) parses the html and display it to the 
 user
-* In many cases a webpage request triggers another requests not limited to the initial server (images loaded via 
+* In many cases a webpage request triggers other requests not limited to the initial server (images loaded via 
 other requests -the URL is embedded in the HTML retrieved by the initial request-)
 * Amazon Example: Amazon does not return a static index.html in fact the content is generated dynamically from 
 services that tailor content based on the user's data in their network (ads are somewhat relevant to your 
