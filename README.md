@@ -45,25 +45,25 @@ developers may wrap webservices with GUI (browser based or desktop based) to ena
 services published by web applications
 
 -HTTP vs. RESTful:
-*HTTP: Is an application protocol (Textual Requirements for communication: Message formats, sizes and order, etc)
-*RESTful: Is an Architecture Style/Design Pattern with constraints/guidelines used for creating web services which 
+* HTTP: Is an application protocol (Textual Requirements for communication: Message formats, sizes and order, etc)
+* RESTful: Is an Architecture Style/Design Pattern with constraints/guidelines used for creating web services which 
 allow anything connected to a network to communicate with one another via HTTP protocol.
 
 -HTTP Requests (messages):
-*GET (Read)
-*Post (Create)
+* GET (Read)
+* Post (Create)
 *Put (Update)
-*Delete (Destroy): Used to be disabled (security risks as clients may attempt to delete content handling must be 
+* Delete (Destroy): Used to be disabled (security risks as clients may attempt to delete content handling must be 
 imposed)
 
 -Handler: A separate entity not part of the webserver it handles request passed by the webserver
 
 -Static webpages request (via GET, it needs a URL): 
-*usually the webserver passes an index.html file and the client (browser) parses the html and display it to the 
+* usually the webserver passes an index.html file and the client (browser) parses the html and display it to the 
 user
-*In many cases a webpage request triggers another requests not limited to the initial server (images loaded via 
+* In many cases a webpage request triggers another requests not limited to the initial server (images loaded via 
 other requests -the URL is embedded in the HTML retrieved by the initial request-)
-*Amazon Example: Amazon does not return a static index.html in fact the content is generated dynamically from 
+* Amazon Example: Amazon does not return a static index.html in fact the content is generated dynamically from 
 services that tailor content based on the user's data in their network (ads are somewhat relevant to your 
 browsing)
 
