@@ -68,3 +68,7 @@ services that tailor content based on the user's data in their network (ads are 
 browsing)
 
 ## Lecture 3
+
+-Common in Distributed apps. That two clients try to update at the same time. (Problem):
+* Have the client send current state and the updated states if expected != current the server returns error.
+* 
